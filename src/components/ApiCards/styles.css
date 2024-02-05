@@ -1,0 +1,43 @@
+.custom-card {
+    width: 100%;
+    margin-bottom: 10px;
+    
+  }
+.method-urlName{
+    margin-left: 20px;
+}  
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  
+  .section1 {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .get {
+    background-color: green;
+  }
+  
+  .post {
+    background-color: blue;
+  }
+  
+  .put {
+    background-color: orange;
+  }
+  
+  .delete {
+    background-color: red;
+  }
+  
+  .method-label {
+    color: white;
+    text-align: center;
+  }
+  
