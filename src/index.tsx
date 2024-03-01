@@ -8,11 +8,10 @@ import {
 import { getRequests, storeRequest, deleteDatabase } from "./helper/DBHelper";
 import { addOrUpdateResponse } from "./helper/converts";
 import BreakPointMock from "./screen/BreakPointMock";
-import { Tabs } from "antd";
+import { Tabs, notification } from "antd";
 import { GeneralMock } from "./GeneralMock";
 import CustomEvent from "./CustomEvent";
 import DbDropdown from './components/DbDropdown'
-import notification from "antd/lib/notification";
 import {indexNameCustomEvent, indexNameLinkEvent} from './constant'
 const { TabPane } = Tabs;
 
